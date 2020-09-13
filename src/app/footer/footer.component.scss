@@ -1,0 +1,31 @@
+footer {
+    background-color: hsl(233, 26%, 24%);
+}
+
+.footer-links {
+    color: hsl(220, 16%, 96%)
+}
+
+.footer-links li:hover {
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.btn-footer {
+    background: #31d35c;
+    background: linear-gradient(to right, #31d35c 0%, #2bb7da 100%);
+}
+
+.btn-footer:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.social-links li img:hover {
+    filter: invert(69%) sepia(10%) saturate(2840%) hue-rotate(83deg) brightness(150%) contrast(98%);
+    cursor: pointer;
+}
+
+.copyright {
+    color: #9698a6;
+}

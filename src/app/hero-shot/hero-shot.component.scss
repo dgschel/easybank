@@ -1,0 +1,39 @@
+.mockups {
+    top: -20%;
+    // max-height: 70vh;
+}
+
+.btn-cta {
+    background: hsl(136, 65%, 51%);
+    background: linear-gradient(to right, hsl(136, 65%, 51%) 0%, hsl(192, 70%, 51%) 100%);
+}
+
+.btn-cta:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.heading {
+    color: hsl(233, 26%, 24%);
+}
+
+.subheading {
+    color: hsl(233, 8%, 62%);
+}
+
+.bg-intro-desktop {
+    top: -40%;
+    right: -30%;
+}
+
+@media only screen and (min-width: 640px) {   
+    .wrapper {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .mockups {
+        width: 100%;
+    }
+}
